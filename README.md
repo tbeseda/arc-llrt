@@ -1,10 +1,22 @@
 ## LLRT deployed with Arc
 
+For science 👨🏻‍🔬
+
+### Setup
+
 ```txt
 npm i
 npm run esbuild.arc-llrt
 npm run deploy
 ```
+
+### Notes
+
+The bundle is required to run the `@architect/functions` LLRT handler.
+
+LLRT functions won't run locally with Sandbox. A plugin could handle that later.
+
+### Routes
 
 ✅ `/` is nodejs20.x
 
