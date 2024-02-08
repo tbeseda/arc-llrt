@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "start": "arc sandbox",
+    "esbuild.arc-llrt": "esbuild src/http/get-arc_llrt/handler.mjs --bundle --outfile=src/http/get-arc_llrt/index.js --platform=node \"--external:@smithy/*\" \"--external:@aws-sdk/*\" \"--external:aws-sdk/*\"",
+    "deploy": "arc deploy"
+  },
+  "devDependencies": {
+    "@architect/architect": "^11.0.3",
+    "@architect/functions": "^8.0.2",
+    "esbuild": "^0.20.0"
+  }
+}
