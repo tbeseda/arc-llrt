@@ -1,0 +1,6 @@
+{
+  "type": "module",
+  "dependencies": {
+    "pure-http": "^3.3.4"
+  }
+}
